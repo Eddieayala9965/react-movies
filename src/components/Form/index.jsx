@@ -9,6 +9,7 @@ const Form = ({ action }) => {
     e.preventDefault();
     action(myInput);
   };
+
   return (
     <>
       <form onSubmit={handleSubmit}>
